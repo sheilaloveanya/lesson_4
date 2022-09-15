@@ -1,0 +1,116 @@
+@import "reset.css";
+
+
+/*@import url('https://fonts.googleapis.com/css2? family= Roboto:wght@100;700 & display=swap');*/
+
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Thin.woff2") format("woff2"), url("../fonts/Roboto-Thin.woff");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Roboto";
+	src: url("../fonts/Roboto-Bold.woff2") format("woff2"), url("../fonts/Roboto-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;	
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Medium.woff2") format("woff2"), url("../fonts/Lato-Medium.woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;	
+}
+
+@font-face {
+	font-family: "Lato";
+	src: url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;	
+}
+
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Regular.woff2") format("woff2"), url("../fonts/Larsseit-Regular.woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+	
+	
+	/*Шрифти Larsseit-Medium i Larsseit1-Bold на латиниці*/
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Medium.woff2") format("woff2"), url("../fonts/Larsseit-Medium.woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;	
+}
+@font-face {
+	font-family: "Larsseit";
+	src: url("../fonts/Larsseit-Bold.woff2") format("woff2"), url("../fonts/Larsseit-Bold.woff");
+	font-weight: 700;
+	font-style: normal;
+	font-display: swap;	
+}
+
+
+
+body {
+	font-family: "Roboto";
+	font-weight: 700;
+}
+
+div {
+	color: blue;
+}
+a {
+	color: tan;
+}
+.text {
+	color: salmon;
+}
+.color-green {
+	color: green;
+}
+#select {
+	color: gold;
+}
+div.lesson {
+	color: lightgreen;
+}
+.lesson.text {
+	color: silver;
+}
+.text p {
+	color: blueviolet;
+}
+.text > p {
+	color: brown;
+}
+.text ~ p {
+	color: slateblue;
+}
+.text + p {
+	font-weight: 100;
+	color: red;
+}
+.text, 
+.lesson-one {
+	color: hotpink;
+}
+
+
+
